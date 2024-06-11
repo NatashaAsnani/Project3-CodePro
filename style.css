@@ -54,15 +54,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 2px; Adjust gap between icons */
-    margin-top: -35px; /* Remove margin */
+    margin-top: -35px; 
 }
 .link{
     padding-top: 20px;
 }
 
-/* Add this CSS after your existing CSS */
-
+/* media queries */
 @media only screen and (max-width: 992px) {
     .codepro {
       flex-direction: column;
@@ -90,6 +88,10 @@
     }
     .tuned {
       padding-left: 0;
+      text-align: center;
+    }
+    .icon {
+      margin-top: 10px;
       text-align: center;
     }
   }
