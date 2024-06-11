@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    /* border: 1px solid; */
+    position: relative;
+    box-sizing: border-box;
+}
+.codepro{
+    /* border: 1px solid; */
+    justify-content: space-around;
+}
+
+.logo{
+    /* border: 1px solid; */
+    /* position: absolute; */
+    bottom: 10%;
+    padding-left: 150px;
+    /* padding-left: 140px; */
+}
+.png{
+    height: 100px;
+    margin-top: 130px;
+}
+.tuned{
+    padding-left: 50px;
+    letter-spacing: 13px;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: smaller;
+}
+.launch{
+    padding-top: 15px;
+    color: blue;
+    letter-spacing: 3px;
+}
+.brands{
+    font-size: 10pt;
+    padding-left: 15px;
+}
+.icon{
+    /* padding-left: 10px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    width: 38px;
+    height: 0px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    /* float: right; */
+}
+.falin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap: 2px; Adjust gap between icons */
+    margin-top: -35px; /* Remove margin */
+}
+.link{
+    padding-top: 20px;
+}
+
+/* Add this CSS after your existing CSS */
+
+@media only screen and (max-width: 992px) {
+    .codepro {
+      flex-direction: column;
+    }
+  
+    .logo {
+      padding-left: 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .png {
+      margin-top: 0;
+    }
+  
+    .icon {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .street{
+        display: none;
+    }
+    .tuned {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .launch {
+      text-align: center;
+    }
+  
+    .brands {
+      padding-left: 0;
+      text-align: center;
+    }
+  }
+  
